@@ -20,7 +20,7 @@ A **powerful, scalable, and CI/CD-ready API Automation Framework** built using *
 ## ▶️ Run the Test Suite
 
 ```bash
-mvn test -Dsurefire.suiteXmlFiles=testng.xml
+mvn test -Dsurefire.suiteXmlFiles=testng_sample.xml
 ````
 
 📸 **Execution Preview** <img width="1130" src="https://github.com/PramodDutta/APIAutomationRestAssured/assets/1409610/69f398b3-8798-4fba-a091-3b1e321dcc7d">
@@ -80,7 +80,7 @@ mvn test -Dsurefire.suiteXmlFiles=testng.xml
 ### ▶️ Run Using:
 
 ```bash
-mvn clean test -DsuiteXmlFile=testng.xml
+mvn clean test -DsuiteXmlFile=testng_sample.xml
 ```
 
 ---
@@ -88,7 +88,7 @@ mvn clean test -DsuiteXmlFile=testng.xml
 ## ⚡ Parallel Execution
 
 ```xml
-<suite name="All Test Suite" parallel="methods" thread-count="2">
+<suite name="All Test Suite" parallel="methods" thread-count="2"/>
 ```
 
 ✅ Faster test execution
