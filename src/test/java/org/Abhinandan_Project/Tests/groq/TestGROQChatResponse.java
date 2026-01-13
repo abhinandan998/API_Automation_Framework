@@ -21,6 +21,10 @@ public class TestGROQChatResponse extends BaseTest {
         requestSpecification.baseUri(API_Constants.GROQ_BASE_URL);
         requestSpecification.basePath(API_Constants.GROQ_CHAT);
         requestSpecification.header("Authorization", "Bearer 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");
+//        //requestSpecification.header(
+//                "Authorization",
+//                "Bearer " + System.getenv("GROQ_API_KEY"));
+
 
 
         response = RestAssured.given(requestSpecification)

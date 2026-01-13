@@ -1,4 +1,4 @@
-package org.Abhinandan_Project.Tests.restfulbooker.HealthCheck;
+package org.Abhinandan_Project.Tests.restfulbooker.crud.HealthCheck;
 
 import io.qameta.allure.Description;
 import io.restassured.RestAssured;
